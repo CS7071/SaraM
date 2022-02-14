@@ -8,7 +8,6 @@
 
 // var to store the current test's name
 extern char *testName;
-
 // short cut for test information
 #define TEST_INFO  __FILE__, testName, __LINE__, __TIME__
 
