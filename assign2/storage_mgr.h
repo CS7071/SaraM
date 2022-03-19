@@ -1,6 +1,12 @@
 #ifndef STORAGE_MGR_H
 #define STORAGE_MGR_H
 
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <fcntl.h>
+
+#include <stdio.h>
+
 #include "dberror.h"
 
 /************************************************************
